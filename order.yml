@@ -9,3 +9,7 @@ spring:
           username: Mrkongjava  #github账号
           password: k1083536928    #github登录密码
 #          basedir: /Users/admin/code/myProjects/java/imooc/SpringCloud_Sell/config/basedir
+env:
+  dev
+label:
+  release
