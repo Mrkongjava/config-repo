@@ -1,6 +1,6 @@
 spring:
   application:
-    name: config    当前项目名
+    name: config    #当前项目名
   cloud:
     config:
       server:
