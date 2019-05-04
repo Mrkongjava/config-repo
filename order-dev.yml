@@ -10,4 +10,4 @@ env: dev
 server:
   port: 8081 #当前服务使用的端口
 girl:
-  name: wangwu1234561q1
+  name: wangwu
