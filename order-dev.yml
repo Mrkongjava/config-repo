@@ -14,5 +14,5 @@ spring:
 server:
   port: 8081 #当前服务使用的端口
 girl:
-  name: wangwu92
+  name: wangwu92pp
 env: dev
