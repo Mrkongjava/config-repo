@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+    username: root
+  rabbitmq:   #rabbitmq的连接配置
+    host: 192.168.182.140
+    port: 5672
+    username: kong
+    password: kong
+girl:
+  name: wangwu8
+env: dev
+server:
+  port: 8081 #当前服务使用的端口
