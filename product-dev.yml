@@ -8,10 +8,10 @@ spring:
     username: root
   jpa:
     show-sql: true
-#   rabbitmq:   #rabbitmq的连接配置
-#     host: 192.168.182.140
-#     port: 5672
-#     username: kong
-#     password: kong
+  rabbitmq:   #rabbitmq的连接配置
+    host: 192.168.182.140
+    port: 5672
+    username: kong
+    password: kong
 server:
   port: 8082 #当前服务使用的端口
