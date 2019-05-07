@@ -2,4 +2,4 @@ spring:
   application:
     name: api-gateway
 server:
-  port: 8081 #当前服务使用的端口
+  port: 8083   #当前服务使用的端口
