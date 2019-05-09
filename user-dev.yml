@@ -7,3 +7,5 @@ spring:
   redis:
     port: 6379
     host: 192.168.1.103   #微信订单系统中的
+server:
+  port: 8084 #当前服务使用的端口
