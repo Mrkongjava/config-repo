@@ -8,7 +8,7 @@ spring:
     username: root
   redis:
     port: 6379
-    host: 192.168.1.103  #微信订单系统中的
+    host: 192.168.182.141  #微信订单系统中的
   rabbitmq:   #rabbitmq的连接配置
     host: 192.168.182.140
     port: 5672
