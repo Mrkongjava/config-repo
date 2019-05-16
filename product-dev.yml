@@ -6,15 +6,15 @@ spring:
     password: root
     url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
     username: root
-#   redis:
-#     port: 6379
-#     host: 192.168.182.141   #微信订单系统中的
+  redis:
+    port: 6379
+    host: 192.168.182.141   #微信订单系统中的
   jpa:
     show-sql: true
-#   rabbitmq:   #rabbitmq的连接配置
-#     host: 192.168.182.141
-#     port: 5672
-#     username: guest
-#     password: guest
+  rabbitmq:   #rabbitmq的连接配置
+    host: 192.168.182.141
+    port: 5672
+    username: guest
+    password: guest
 server:
   port: 8082 #当前服务使用的端口
